@@ -1,70 +1,53 @@
 ---
-layout: about
-title: about
 permalink: /
-subtitle: MVA master's student at <a href='https://www.master-mva.com/'>ENS Paris-Saclay</a> · Engineering student at <a href='https://www.telecom-paris.fr/'>Télécom Paris</a>
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>Paris, France</p>
-
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: false # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: false
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+title: "About me"
+author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
-Hi! I'm Iliass, a third-year engineering student at **Télécom Paris**, currently enrolled in the [**MVA**](https://www.master-mva.com/) (Mathématiques, Vision, Apprentissage) research master's program at ENS Paris-Saclay.
+Hi! I'm Iliass, a third-year engineering student at [Télécom Paris](https://www.telecom-paris.fr/) and a master's student in the [MVA program](https://www.master-mva.com/) (Mathématiques, Vision, Apprentissage) at ENS Paris-Saclay.
 
-I'm passionate about **applied mathematics** and **computer science**. I love building impactful projects in **Python** and **C++**, and exploring the depths of **machine learning research** — from statistical modeling and ML theory to deep learning and signal processing. I was also active in the **Télécom Robotics** club, where I worked on real-world robotics challenges with ROS.
+I'm passionate about applied mathematics and computer science. I love building impactful projects in Python and C++, and exploring the depths of machine learning research, from statistical modeling and machine learning theory to deep learning and signal processing. I was also active in the Télécom Robotics club, where I worked on real-world robotics challenges with ROS.
 
-Always eager to learn, collaborate, and tackle new technical problems. Take a look at my [projects](/projects/), or reach out by [email](mailto:iliass.khoutaibi@telecom-paris.fr)!
+Always eager to learn, collaborate, and tackle new technical problems. Take a look at my [portfolio](/portfolio/), browse my [repositories](/repositories/) (or my [LeetCode](https://leetcode.com/khoutaibi)), and feel free to reach out by [email](mailto:iliass.khoutaibi@telecom-paris.fr).
 
-## 🎓 my journey
+My journey
+======
 
 <div class="journey">
   <div class="journey-item">
     <div class="journey-logo">
-      <img src="/assets/img/logos/telecom-paris.png" alt="Télécom Paris" />
+      <img src="/images/logos/telecom-paris.png" alt="Télécom Paris" />
     </div>
     <div class="journey-body">
-      <span class="journey-date">2023 – 2026</span>
+      <span class="journey-date">2023 - 2026</span>
       <h3 class="journey-title">Télécom Paris</h3>
-      <p class="journey-desc">Diplôme d'Ingénieur · Palaiseau, France</p>
+      <p class="journey-desc">Diplôme d'Ingénieur - Palaiseau, France</p>
     </div>
   </div>
 
   <div class="journey-item">
     <div class="journey-logo">
-      <img src="/assets/img/logos/mva.jpg" alt="Master MVA" />
+      <img src="/images/logos/mva.jpg" alt="Master MVA" />
     </div>
     <div class="journey-body">
-      <span class="journey-date">2025 – 2026</span>
-      <h3 class="journey-title">Master MVA — Mathématiques, Vision, Apprentissage</h3>
+      <span class="journey-date">2025 - 2026</span>
+      <h3 class="journey-title">Master MVA - Mathématiques, Vision, Apprentissage</h3>
       <p class="journey-desc">Research master's (M2) in machine learning and computer vision</p>
-      <img class="journey-sublogo" src="/assets/img/logos/ens-paris-saclay.png" alt="ENS Paris-Saclay" />
+      <img class="journey-sublogo" src="/images/logos/ens-paris-saclay.png" alt="ENS Paris-Saclay" />
     </div>
   </div>
 
   <div class="journey-item">
     <div class="journey-logo">
-      <img src="/assets/img/logos/harvard.svg" alt="Harvard University" />
+      <img src="/images/logos/harvard.svg" alt="Harvard University" />
     </div>
     <div class="journey-body">
       <span class="journey-date">2026</span>
       <h3 class="journey-title">Harvard AI &amp; Robotics Lab</h3>
-      <p class="journey-desc">Research internship · Cambridge, MA</p>
+      <p class="journey-desc">Research internship - Cambridge, MA</p>
     </div>
   </div>
 </div>
@@ -81,7 +64,7 @@ Always eager to learn, collaborate, and tackle new technical problems. Take a lo
     top: 8px;
     bottom: 8px;
     width: 2px;
-    background: rgba(128, 128, 128, 0.3);
+    background: rgba(128, 128, 128, 0.4);
   }
   .journey-item {
     position: relative;
@@ -97,7 +80,7 @@ Always eager to learn, collaborate, and tackle new technical problems. Take a lo
     flex: 0 0 64px;
     height: 64px;
     background: #fff;
-    border: 1px solid rgba(128, 128, 128, 0.35);
+    border: 1px solid rgba(128, 128, 128, 0.45);
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -117,7 +100,7 @@ Always eager to learn, collaborate, and tackle new technical problems. Take a lo
     letter-spacing: 0.03em;
     padding: 0.1rem 0.55rem;
     border-radius: 999px;
-    background: rgba(128, 128, 128, 0.15);
+    background: rgba(128, 128, 128, 0.2);
     margin-bottom: 0.25rem;
   }
   .journey-title {

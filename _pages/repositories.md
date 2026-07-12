@@ -1,47 +1,26 @@
 ---
-layout: page
 permalink: /repositories/
-title: repositories
-description: My GitHub profile and featured repositories.
-nav: true
-nav_order: 3
+title: "Repositories"
+author_profile: true
 ---
 
-{% if site.data.repositories.github_users %}
+My GitHub profile and featured repositories. Everything lives at [github.com/KHOUTAIBI](https://github.com/KHOUTAIBI).
 
-## GitHub users
+<p>
+  <a href="https://github.com/KHOUTAIBI">
+    <img src="https://github-readme-stats.vercel.app/api?username=khoutaibi&show_icons=true&locale=en&theme=dark&hide_border=true" alt="GitHub stats" />
+  </a>
+</p>
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
+<p>
+  <a href="https://github.com/KHOUTAIBI">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs?username=khoutaibi&locale=en&layout=compact&theme=dark&hide_border=true" alt="Top languages" />
+  </a>
+</p>
 
----
+Featured repositories
+======
 
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %}
-
-{% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
-{% endif %}
+- [MVA-2026](https://github.com/KHOUTAIBI/MVA-2026) - Projects and research-oriented implementations from the MVA program (Python, PyTorch)
+- [AI-games](https://github.com/KHOUTAIBI/AI-games) - AI agents learning to play video games with deep reinforcement learning: DQN, PPO, DDPG (PyTorch, TensorFlow)
+- [NumericalAnalysis](https://github.com/KHOUTAIBI/NumericalAnalysis) - Python implementations of numerical methods for integration, interpolation, and solving systems
