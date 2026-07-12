@@ -1,20 +1,11 @@
 ---
 permalink: /
-title: "About me"
+title: "My journey"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-
-Hi! I'm Iliass, a third-year engineering student at [Télécom Paris](https://www.telecom-paris.fr/) and a master's student in the [MVA program](https://www.master-mva.com/) (Mathématiques, Vision, Apprentissage) at ENS Paris-Saclay.
-
-I'm passionate about applied mathematics and computer science. I love building impactful projects in Python and C++, and exploring the depths of machine learning research, from statistical modeling and machine learning theory to deep learning and signal processing. I was also active in the Télécom Robotics club, where I worked on real-world robotics challenges with ROS.
-
-Always eager to learn, collaborate, and tackle new technical problems. Take a look at my [portfolio](/portfolio/), browse my [repositories](/repositories/) (or my [LeetCode](https://leetcode.com/khoutaibi)), and feel free to reach out by [email](mailto:iliass.khoutaibi@telecom-paris.fr).
-
-My journey
-======
 
 <div class="journey">
   <div class="journey-item">
