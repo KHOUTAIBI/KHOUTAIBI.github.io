@@ -96,6 +96,26 @@ A selection of my favorite projects. Everything else lives at [github.com/KHOUTA
     </div>
   </div>
 
+  <div class="repo-card">
+    <div class="repo-media">
+      <img src="/images/repos/agentic-zork.jpg" alt="Zork gameplay on a CRT terminal, showing the Front of House room prompt" loading="lazy" />
+    </div>
+    <div class="repo-body">
+      <h3 class="repo-title"><a href="https://huggingface.co/spaces/LLM-course/Agentic-zork">Agentic Zork</a></h3>
+      <p class="repo-desc">A ReAct-style LLM agent that plays classic Z-machine text adventures (Zork and 56 other Infocom-era games) through an MCP tool server: the agent reasons over room descriptions, chooses actions, and explores partially observable environments purely from text.</p>
+      <div class="repo-refs">
+        <span class="repo-refs-label">References</span>
+        <ul>
+          <li><a href="https://arxiv.org/abs/2210.03629">ReAct: Synergizing Reasoning and Acting in Language Models</a> (arXiv:2210.03629)<br /><span class="repo-authors">Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan, Yuan Cao</span></li>
+          <li><a href="https://arxiv.org/abs/1909.05398">Interactive Fiction Games: A Colossal Adventure</a> (Jericho, arXiv:1909.05398)<br /><span class="repo-authors">Matthew Hausknecht, Prithviraj Ammanabrolu, Marc-Alexandre C&ocirc;t&eacute;, Xingdi Yuan</span></li>
+          <li>Zork (1977-1979), Massachusetts Institute of Technology / Infocom<br /><span class="repo-authors">Tim Anderson, Marc Blank, Bruce Daniels, Dave Lebling</span></li>
+        </ul>
+      </div>
+      <p class="repo-credit">Photo: <a href="https://www.flickr.com/photos/mwichary/45897016062/">Marcin Wichary</a>, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p>
+      <a class="repo-link" href="https://huggingface.co/spaces/LLM-course/Agentic-zork">View the Space</a>
+    </div>
+  </div>
+
 </div>
 
 <style>
@@ -172,6 +192,11 @@ A selection of my favorite projects. Everything else lives at [github.com/KHOUTA
   }
   .repo-authors {
     opacity: 0.75;
+  }
+  .repo-credit {
+    font-size: 0.68rem;
+    opacity: 0.6;
+    margin: 0 0 0.5rem;
   }
   .repo-link {
     margin-top: auto;
