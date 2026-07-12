@@ -11,7 +11,7 @@ Built with Jekyll and the [Academic Pages](https://github.com/academicpages/acad
 - Repositories page: `_pages/repositories.md`
 - Header navigation: `_data/navigation.yml`
 - Author sidebar (bio, links): the `author` block in `_config.yml`
-- Profile photo: replace `images/profile.png`
-- CV: fill `_pages/cv.md`, then re-enable the CV entry in `_data/navigation.yml`
+- Profile photo: replace `images/profile.jpg`
+- CV page: `_pages/cv.md`; downloadable PDFs live in `files/`
 
 The previous al-folio version of the site is preserved on the `al-folio-version` branch.

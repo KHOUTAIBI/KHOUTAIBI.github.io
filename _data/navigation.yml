@@ -14,6 +14,5 @@ main:
   - title: "Repositories"
     url: /repositories/
 
-  # Re-enable when the CV is ready:
-  # - title: "CV"
-  #   url: /cv/
+  - title: "CV"
+    url: /cv/

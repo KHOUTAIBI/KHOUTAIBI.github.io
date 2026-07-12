@@ -19,6 +19,17 @@ My journey
 <div class="journey">
   <div class="journey-item">
     <div class="journey-logo">
+      <i class="fa-solid fa-graduation-cap" aria-hidden="true"></i>
+    </div>
+    <div class="journey-body">
+      <span class="journey-date">2021 - 2023</span>
+      <h3 class="journey-title">Bachelor of Science</h3>
+      <p class="journey-desc">Undergraduate program - Marrakech / Rabat, Morocco</p>
+    </div>
+  </div>
+
+  <div class="journey-item">
+    <div class="journey-logo">
       <img src="/images/logos/telecom-paris.png" alt="Télécom Paris" />
     </div>
     <div class="journey-body">
@@ -45,9 +56,9 @@ My journey
       <img src="/images/logos/harvard.svg" alt="Harvard University" />
     </div>
     <div class="journey-body">
-      <span class="journey-date">2026</span>
+      <span class="journey-date">April 2026 - Present</span>
       <h3 class="journey-title">Harvard AI &amp; Robotics Lab</h3>
-      <p class="journey-desc">Research internship - Cambridge, MA</p>
+      <p class="journey-desc">Visiting Research Intern - Cambridge, MA</p>
     </div>
   </div>
 </div>
@@ -92,6 +103,10 @@ My journey
     max-width: 44px;
     max-height: 44px;
     object-fit: contain;
+  }
+  .journey-logo i {
+    font-size: 1.5rem;
+    color: #333;
   }
   .journey-date {
     display: inline-block;
