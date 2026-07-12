@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 460" font-family="Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="mva2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2b2fa8"/>
+      <stop offset="1" stop-color="#a3237f"/>
+    </linearGradient>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#444"/>
+    </marker>
+  </defs>
+  <rect width="900" height="460" fill="#ffffff"/>
+
+  <text x="450" y="50" text-anchor="middle" font-size="24" font-weight="bold" fill="#222">FSM-constrained decoding</text>
+  <text x="450" y="80" text-anchor="middle" font-size="16" fill="#666" font-family="Menlo, Consolas, monospace">regex: [0-9]+(\.[0-9]+)?</text>
+
+  <!-- FSM states -->
+  <g font-size="18" text-anchor="middle">
+    <circle cx="180" cy="170" r="34" fill="#eceef8" stroke="#2b2fa8" stroke-width="2.5"/>
+    <text x="180" y="177" fill="#222">q0</text>
+    <circle cx="400" cy="170" r="34" fill="#eceef8" stroke="#2b2fa8" stroke-width="2.5"/>
+    <text x="400" y="177" fill="#222">q1</text>
+    <circle cx="620" cy="170" r="34" fill="#eceef8" stroke="#2b2fa8" stroke-width="2.5"/>
+    <circle cx="620" cy="170" r="27" fill="none" stroke="#2b2fa8" stroke-width="2"/>
+    <text x="620" y="177" fill="#222">q2</text>
+  </g>
+
+  <line x1="100" y1="170" x2="142" y2="170" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <line x1="214" y1="170" x2="362" y2="170" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="288" y="158" text-anchor="middle" font-size="15" fill="#333" font-family="Menlo, Consolas, monospace">[0-9]</text>
+  <line x1="434" y1="170" x2="582" y2="170" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="508" y="156" text-anchor="middle" font-size="16" fill="#333" font-family="Menlo, Consolas, monospace">\.</text>
+  <!-- self loops -->
+  <path d="M 385 140 C 370 95, 430 95, 415 140" fill="none" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="400" y="100" text-anchor="middle" font-size="14" fill="#333" font-family="Menlo, Consolas, monospace">[0-9]</text>
+  <path d="M 605 140 C 590 95, 650 95, 635 140" fill="none" stroke="#444" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="620" y="100" text-anchor="middle" font-size="14" fill="#333" font-family="Menlo, Consolas, monospace">[0-9]</text>
+
+  <!-- logits masking -->
+  <line x1="400" y1="204" x2="400" y2="262" stroke="url(#mva2)" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="415" y="240" font-size="14" fill="#a3237f">mask logits</text>
+
+  <g font-size="16" text-anchor="middle">
+    <rect x="180" y="270" width="90" height="46" rx="8" fill="#eceef8" stroke="#2b2fa8" stroke-width="2"/>
+    <text x="225" y="298" fill="#222" font-family="Menlo, Consolas, monospace">"7"</text>
+    <rect x="290" y="270" width="90" height="46" rx="8" fill="#eceef8" stroke="#2b2fa8" stroke-width="2"/>
+    <text x="335" y="298" fill="#222" font-family="Menlo, Consolas, monospace">"."</text>
+
+    <rect x="420" y="270" width="90" height="46" rx="8" fill="#faf0f0" stroke="#c88" stroke-width="1.5"/>
+    <text x="465" y="298" fill="#b66" font-family="Menlo, Consolas, monospace">"cat"</text>
+    <line x1="428" y1="312" x2="502" y2="274" stroke="#b66" stroke-width="2"/>
+    <rect x="530" y="270" width="90" height="46" rx="8" fill="#faf0f0" stroke="#c88" stroke-width="1.5"/>
+    <text x="575" y="298" fill="#b66" font-family="Menlo, Consolas, monospace">"the"</text>
+    <line x1="538" y1="312" x2="612" y2="274" stroke="#b66" stroke-width="2"/>
+  </g>
+  <text x="225" y="345" text-anchor="middle" font-size="14" fill="#2b2fa8">allowed</text>
+  <text x="520" y="345" text-anchor="middle" font-size="14" fill="#b66">masked out</text>
+
+  <text x="450" y="405" text-anchor="middle" font-size="16" fill="#333">every sampled token is guaranteed to match the target structure</text>
+</svg>
