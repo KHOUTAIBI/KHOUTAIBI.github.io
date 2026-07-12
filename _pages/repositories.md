@@ -98,7 +98,7 @@ A selection of my favorite projects. Everything else lives at [github.com/KHOUTA
 
   <div class="repo-card">
     <div class="repo-media">
-      <img src="/images/repos/agentic-zork.jpg" alt="Zork gameplay on a CRT terminal, showing the Front of House room prompt" loading="lazy" />
+      <img src="/images/repos/agentic-zork.jpg" alt="Zork gameplay on a CRT terminal: West of House, opening the mailbox, and the Welcome to Zork message" loading="lazy" />
     </div>
     <div class="repo-body">
       <h3 class="repo-title"><a href="https://huggingface.co/spaces/LLM-course/Agentic-zork">Agentic Zork</a></h3>
@@ -111,7 +111,7 @@ A selection of my favorite projects. Everything else lives at [github.com/KHOUTA
           <li>Zork (1977-1979), Massachusetts Institute of Technology / Infocom<br /><span class="repo-authors">Tim Anderson, Marc Blank, Bruce Daniels, Dave Lebling</span></li>
         </ul>
       </div>
-      <p class="repo-credit">Photo: <a href="https://www.flickr.com/photos/mwichary/45897016062/">Marcin Wichary</a>, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p>
+      <p class="repo-credit">Photo: <a href="https://commons.wikimedia.org/wiki/File:Zork_photo.jpg">Marcin Wichary</a>, <a href="https://creativecommons.org/licenses/by/2.0/">CC BY 2.0</a></p>
       <a class="repo-link" href="https://huggingface.co/spaces/LLM-course/Agentic-zork">View the Space</a>
     </div>
   </div>
