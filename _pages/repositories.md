@@ -10,7 +10,7 @@ A selection of my favorite projects. Everything else lives at [github.com/KHOUTA
 
   <div class="repo-card">
     <div class="repo-media">
-      <img src="/images/repos/diffusion-policy-pusht.gif" alt="Diffusion Policy agent solving the PushT task" loading="lazy" />
+      <img src="/images/repos/diffusion-policy-kitchen.gif" alt="Diffusion Policy agent solving the FrankaKitchen task" loading="lazy" />
     </div>
     <div class="repo-body">
       <h3 class="repo-title"><a href="https://github.com/KHOUTAIBI/DiffusionPolicy">DiffusionPolicy</a></h3>
@@ -27,7 +27,7 @@ A selection of my favorite projects. Everything else lives at [github.com/KHOUTA
 
   <div class="repo-card">
     <div class="repo-media">
-      <img src="/images/repos/generative-image-modeling.jpg" alt="Denoising trajectories reconstructing face images from noise" loading="lazy" />
+      <img src="/images/repos/generative-image-modeling.jpg" alt="Inpainting trajectories: masked face images restored through guided denoising" loading="lazy" />
     </div>
     <div class="repo-body">
       <h3 class="repo-title"><a href="https://github.com/KHOUTAIBI/GenerativeImageModeling">GenerativeImageModeling</a></h3>
@@ -119,7 +119,7 @@ A selection of my favorite projects. Everything else lives at [github.com/KHOUTA
   }
   .repo-media {
     background: #fff;
-    height: 215px;
+    height: 165px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -134,23 +134,25 @@ A selection of my favorite projects. Everything else lives at [github.com/KHOUTA
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding: 0.9rem 1rem 1rem;
+    padding: 0.7rem 0.85rem 0.85rem;
   }
   .repo-title {
-    margin: 0 0 0.4rem;
-    font-size: 1.05rem;
+    margin: 0 0 0.35rem;
+    font-size: 1rem;
   }
   .repo-desc {
-    font-size: 0.85rem;
-    line-height: 1.5;
-    margin: 0 0 0.7rem;
+    font-size: 0.8rem;
+    line-height: 1.45;
+    margin: 0 0 0.6rem;
   }
   .repo-refs {
-    font-size: 0.78rem;
+    font-size: 0.75rem;
     line-height: 1.45;
     border-left: 3px solid rgba(128, 128, 128, 0.4);
     padding-left: 0.7rem;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.7rem;
+    max-height: 92px;
+    overflow-y: auto;
   }
   .repo-refs-label {
     display: block;
