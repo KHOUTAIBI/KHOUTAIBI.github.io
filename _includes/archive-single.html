@@ -13,6 +13,18 @@
 {% endif %}
 
 <div class="{{ include.type | default: "list" }}__item">
+  {% if post.collection == 'publications' %}
+  <article class="archive__item pub-item" itemscope itemtype="http://schema.org/CreativeWork">
+    <h3 class="pub-title" itemprop="headline"><a href="{{ post.link | default: post.paperurl }}">{{ title }}</a></h3>
+    {% if post.authors %}<p class="pub-authors">{{ post.authors }}</p>{% endif %}
+    <p class="pub-meta">
+      <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}
+      {% if post.link %} &middot; <a href="{{ post.link }}">arXiv</a>{% endif %}
+      {% if post.paperurl %} &middot; <a href="{{ post.paperurl }}">PDF</a>{% endif %}
+      {% if post.bibtexurl %} &middot; <a href="{{ post.bibtexurl }}">BibTeX</a>{% endif %}
+    </p>
+  </article>
+  {% else %}
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -81,4 +93,5 @@
     {% endif %}
 
   </article>
+  {% endif %}
 </div>
