@@ -59,7 +59,8 @@ redirect_from:
     </div>
     <div class="journey-body">
       <span class="journey-date">November 2026 - Present</span>
-      <h3 class="journey-title">Meta</h3>
+      <h3 class="journey-title">Meta FAIR</h3>
+      <p class="journey-desc">Fundamental AI Research - Paris, France</p>
     </div>
   </div>
 </div>
