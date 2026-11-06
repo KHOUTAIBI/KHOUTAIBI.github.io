@@ -47,9 +47,19 @@ redirect_from:
       <img src="/images/logos/harvard.svg" alt="Harvard University" />
     </div>
     <div class="journey-body">
-      <span class="journey-date">April 2026 - Present</span>
+      <span class="journey-date">April 2026 - October 2026</span>
       <h3 class="journey-title">Harvard AI &amp; Robotics Lab</h3>
       <p class="journey-desc">Visiting Research Intern - Cambridge, MA</p>
+    </div>
+  </div>
+
+  <div class="journey-item">
+    <div class="journey-logo">
+      <i class="fa-brands fa-meta" aria-hidden="true" style="color: #0866FF; font-size: 1.9rem;"></i>
+    </div>
+    <div class="journey-body">
+      <span class="journey-date">November 2026 - Present</span>
+      <h3 class="journey-title">Meta</h3>
     </div>
   </div>
 </div>
